@@ -19,6 +19,7 @@ repositories {
 }
 
 dependencies {
+	implementation("io.netty:netty-all:4.1.100.Final")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
